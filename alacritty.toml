@@ -1,0 +1,76 @@
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+[colors.bright]
+black = "0x818181"
+blue = "0x20bbfc"
+cyan = "0x4fb8cc"
+green = "0x5fd7af"
+magenta = "0x6855de"
+red = "0xfb007a"
+white = "0xf1f1f1"
+yellow = "0xf3e430"
+
+[colors.normal]
+black = "0x212121"
+blue = "0x008ec4"
+cyan = "0x20a5ba"
+green = "0x10a778"
+magenta = "0x5f51b5"
+red = "0xc30771"
+white = "0xe0e0e0"
+yellow = "0xa89c14"
+
+[colors.primary]
+background = "0x212121"
+foreground = "0xf1f1f1"
+
+[cursor]
+thickness = 0.15
+unfocused_hollow = true
+vi_mode_style = "None"
+
+[cursor.style]
+blinking = "Off"
+shape = "Block"
+
+[font]
+size = 14.0
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.normal]
+family = "MesloLGS Nerd Font Mono"
+style = "Regular"
+
+[scrolling]
+history = 10000
+multiplier = 2
+
+[selection]
+semantic_escape_chars = ''',│`|:"' ()[]{}<>	'''
+
+[window]
+decorations = "transparent"
+opacity = 0.95
+
+[window.dimensions]
+columns = 140
+lines = 40
+
+[window.padding]
+x = 10
+y = 30
+
+[window.position]
+x = 340
+y = 210
+
+[general]
+live_config_reload = true
